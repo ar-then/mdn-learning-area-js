@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Input Collector</title>
+    <script type="text/javascript">
+        function collectInput() {
+            var userInput = document.getElementById('inputField').value;
+            alert("Collected String: " + userInput);
+            // Here, you can handle the collected string as needed
+        }
+    </script>
+</head>
+<body>
+    <label for="inputField">Enter Text:</label>
+    <input type="text" id="inputField" name="inputField">
+    <button onclick="collectInput()">DON'T PRESS</button>
+</body>
+</html>
